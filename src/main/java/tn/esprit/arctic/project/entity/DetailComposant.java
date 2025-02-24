@@ -16,7 +16,5 @@ public class DetailComposant {
     @Enumerated(EnumType.STRING)
     private TypeComposant typeComposant;
 
-    @OneToOne
-    @JoinColumn(name = "composant_id")
-    private Composant composant;
+
 }
